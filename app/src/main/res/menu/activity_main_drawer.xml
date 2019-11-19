@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/task"
+            android:icon="@drawable/task"
+            android:title="Task" >
+
+            <menu>
+                <item
+                    android:id="@+id/view_task"
+                    android:title="    View"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/event"
+            android:icon="@drawable/event"
+            android:title="Event" >
+
+            <menu>
+                <item
+                    android:id="@+id/view_event"
+                    android:title="    View"/>
+
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/leave"
+            android:title="Leaves" >
+
+            <menu>
+                <item
+                    android:id="@+id/view_notes"
+                    android:title="    View"/>
+
+            </menu>
+
+        </item>
+    </group>
+
+</menu>
